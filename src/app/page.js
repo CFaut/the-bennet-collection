@@ -13,6 +13,17 @@ export default function Home() {
          <Link href='/custom'>Custom Made</Link>
          <Link href='/contact'>Contact Us</Link>
        </div>
+       <div className='section-body'>
+          <div className='section'>
+              <h2>Shop The Collection</h2>
+          </div>
+          <div className='section'>
+              <h2>Custom Made Dresses For Any Occasion</h2>
+          </div>
+       </div>
+       <div className='footer'>
+        <h3>Footer</h3>
+       </div>
     </main>
   )
 }
