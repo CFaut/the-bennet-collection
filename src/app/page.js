@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import NavBar from './components/navbar/page'
 
 export default function Home() {
   return (
@@ -7,12 +8,7 @@ export default function Home() {
        <div className='banner'>
         <h1>The Bennet Collection</h1>
        </div>
-       <div className='nav'>
-         <Link href='/about'>About Us</Link>
-         <Link href='/shop'>Shop</Link>
-         <Link href='/custom'>Custom Made</Link>
-         <Link href='/contact'>Contact Us</Link>
-       </div>
+       <NavBar/>
        <div className='section-body'>
           <div className='section'>
               <h2>Shop The Collection</h2>
