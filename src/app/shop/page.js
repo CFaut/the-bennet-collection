@@ -1,8 +1,13 @@
-export default function Home() {
+import NavBar from "../components/navbar/page";
+import Banner from "../components/banner/page";
+
+export default function Shop() {
     return (
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="flex min-h-screen w-full flex-col justify-between">
          <div>
-          <h1>Shop The Collection</h1>
+           <Banner/>
+           <NavBar/>
+           <h1>Shop The Collection</h1>
          </div>
       </main>
     )

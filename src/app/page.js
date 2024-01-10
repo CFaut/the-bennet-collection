@@ -4,7 +4,7 @@ import Head from 'next/head'
 import NavBar from './components/navbar/page'
 import HomeBody from './components/home-body/page'
 import Footer from './components/footer/page'
-import Banner from './components/banner/banner'
+import Banner from './components/banner/page'
 
 export default function Home() {
   return (
