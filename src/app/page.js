@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import NavBar from './components/navbar/page'
+import HomeBody from './components/home-body/page'
 
 export default function Home() {
   return (
@@ -9,14 +10,7 @@ export default function Home() {
         <h1>The Bennet Collection</h1>
        </div>
        <NavBar/>
-       <div className='section-body'>
-          <div className='section'>
-              <h2>Shop The Collection</h2>
-          </div>
-          <div className='section'>
-              <h2>Custom Made Dresses For Any Occasion</h2>
-          </div>
-       </div>
+       <HomeBody/>
        <div className='footer'>
         <h3>Footer</h3>
        </div>
