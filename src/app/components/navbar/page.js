@@ -1,7 +1,7 @@
 import Link from "next/link"
 export default function NavBar() {
     return (
-    <div className='flex justify-evenly w-9/12'>
+    <div className='flex justify-evenly w-full'>
         <Link className="nav-btn" href='/about'>About Us</Link>
         <Link className="nav-btn" href='/shop'>Shop</Link>
         <Link className="nav-btn" href='/custom'>Custom Made</Link>

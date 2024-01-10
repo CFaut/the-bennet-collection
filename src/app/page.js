@@ -2,18 +2,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import NavBar from './components/navbar/page'
 import HomeBody from './components/home-body/page'
+import Footer from './components/footer/page'
+import Banner from './components/banner/banner'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-       <div className='banner'>
-        <h1>The Bennet Collection</h1>
-       </div>
+    <main className="flex min-h-screen w-full flex-col items-center justify-between">
+       <Banner/>
        <NavBar/>
        <HomeBody/>
-       <div className='footer'>
-        <h3>Footer</h3>
-       </div>
+       <Footer/>
     </main>
   )
 }

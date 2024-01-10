@@ -1,6 +1,6 @@
 export default function HomeBody() {
     return (
-    <div className='section-body'>
+    <div className='flex flex-col w-9/12 justify-center'>
         <div className='section'>
             <h2>Shop The Collection</h2>
         </div>

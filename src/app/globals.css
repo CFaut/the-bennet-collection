@@ -7,7 +7,7 @@
   --light-pink: #E0D5BE;
   --med-pink: #e0908d;
   --dark-pink: #C7495C;
-  --green: #466a44;
+  --green: #85af82;
   --blue: #9AA8A8;
 }
 
@@ -21,11 +21,35 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: var(--light-pink)
+  background: var(--light-pink);
+  width: 100%;
 }
+
+.banner {
+  background-image: url('../../public/images/banner.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  width: 100%;
+  padding: 5em
+}
+
 .nav-btn {
   padding: 0.5em 1em;
 }
 .nav-btn:hover {
    background-color: var(--med-pink);
+}
+
+.section {
+  padding: 3em 0;
+  text-align: center;
+  margin: 1em;
+  background-color: var(--green);
+}
+
+.footer {
+  background-color: var(--med-pink);
+  width: 100%;
+  padding: 2em 1em;
+  margin: 0
 }
