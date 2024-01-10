@@ -30,7 +30,10 @@ body {
   background-position: center bottom;
   background-size: cover;
   width: 100%;
-  padding: 5em
+  padding: 3em;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
 }
 
 .nav-btn {

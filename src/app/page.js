@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head'
 import NavBar from './components/navbar/page'
 import HomeBody from './components/home-body/page'
 import Footer from './components/footer/page'
